@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+.container {
+    width: 1420px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #da002b;
+    height: 70px;
+}
+
+
+.head_all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.head_left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.head_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.installments_and_sweepstakes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 35px;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.sell_on_olcha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 45px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+#sell_on_olcha_txt {
+    color: #fff;
+}
+
+.installments_and_sweepstakes_txt {
+    font-size: 16px;
+    color: #da002b;
+}
+
+#white_txt {
+    color: #fff;
+}
+
+.sales {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.card_of_wesite {
+    color: #fff;
+}
+
+.numb {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-decoration: none;
+}
+
+.lang {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#swithdet {
+    color: #fff;
+}
+
+.lang_boxes_txt {
+    color: #ffffffb3;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sec_all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.sec_left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.catalog {
+    align-items: center;
+    border: 2px solid #111;
+    border-radius: 12px;
+    color: #111;
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    height: 48px;
+    width: 150px;
+    justify-content: center;
+}
+
+
+
+.olcha_logo {
+    width: 102px;
+    height: 30px;
+}
+
+.svgs {
+    fill: #111;
+    height: 24px;
+    transition: .3s cubic-bezier(.4, 0, .2, 1);
+    width: 24px;
+}
+
+.logo_of_right_sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    color: #111;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 11px 24px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f2f2f2;
+    width: 670px;
+    height: 48px;
+}
+
+.sec_all {
+    margin-top: 25px;
+}
+
+
+.ad_all {
+    margin-top: 30px;
+}
+
+.box_with_ad {
+
+    border-radius: 12px;
+    height: 382px;
+    overflow: hidden;
+
+    height: 450px;
+}
+
+.categ_all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.categ_txt{
+    color: #111;
+    font-size: 14px;
+    font-weight: 700;
+    height: 60px;
+}
+.categ_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.categ_with_imges:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.categ_with_imges:not(:hover) {
+    transition: 1s;
+}
+
+
+.equipment_all{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.equipment_boxes{
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.catalog_sec_all{
+    display: flex;
+    flex-direction: column;
+    height: 184px;
+    width: 200px;
+}
+
+.price{
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.two_boxes{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.korzinka{
+    align-items: center;
+    border: 2px solid #111;
+    border-radius: 8px;
+    color: #111;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 50px;
+}
+
+.rasrochka{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    border: 2px solid #da002b;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #da002b;
+}
